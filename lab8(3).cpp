@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-	const int d = 10;
-	char s[d];
-	char i;
-	int n, m;
+	const int d = 15;
+	string s[d];
+	char a;
+	int i, n, m;
 	cout << " vvedite slovo : ";
 	for (i = 0; i < d - 1; i++)
 		cin >> s[i];
@@ -14,9 +14,9 @@ int main()
 	cin >> m;
 	cout << " n= ";
 	cin >> n;
-	i = s[m];
+	a = s[m];
 	s[m] = s[n];
-	s[n] = i;
+	s[n] = a;
 	cout << " novoe slovo :" << s;
 
 }
